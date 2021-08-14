@@ -3,9 +3,9 @@ const Sequelize = require('sequelize')
 
 //conexion local -> wamp
 let database = 'biblioteca'
-let userMYSQL = 'root'
-let passMySQL = ''
-let hostMySQL = '127.0.0.1'
+let userMYSQL = 'b0f096e406580f'
+let passMySQL = '8c728e05'
+let hostMySQL = 'eu-cdbr-west-01.cleardb.com'
 
 
 
