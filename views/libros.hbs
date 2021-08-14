@@ -1,0 +1,28 @@
+<head>
+    <title>{{title}}</title>
+</head>
+
+<h2 class="resultadoBusqueda">Biblioteca</h2>
+
+    
+    <div class=" rowLibros row">
+        {{#each libros}}
+
+        <div class="itemLibro col-md-3 col-sm-6">
+            <img class="falsaImagen" src="/images/cover.jpg" alt="">
+            {{!-- <div class="falsaImagen"></div> --}}
+            <h3>{{titulo}} <p class="estado">({{estado}})</p></h3>
+            <p> {{autor}}</p>
+            
+            
+            
+           
+        </div>
+        {{/each}}
+    </div>
+
+ <div class="botonVolver">
+       <a href="/">
+       Volver al inicio
+       </a>
+   </div>

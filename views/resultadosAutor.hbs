@@ -1,0 +1,26 @@
+
+
+    <h2 class="resultadoBusqueda">Todos los libros de <p style="text-transform: capitalize">{{elAutor}}</p></h2>
+
+<div class="row contenedorAutores">
+    {{#each libro}}
+
+    <div class=" col-sm-6 col-xs-12  ">
+                  <img class = "falsaImagen" src="/images/cover.jpg" alt="">
+                  <h2 class="tituloEncontrado">{{titulo}}</h2>
+                  <p class="autorLibro">
+                        ({{estado}})
+                  </p>
+            </div>
+    {{/each}}
+
+    </div>
+
+    <div class="botonVolver">
+                        <a href="/autores">Realizar otra búsqueda</a>
+                  </div>
+      <div class="botonVolver">
+       <a href="/">
+       Volver al inicio
+       </a>
+   </div>

@@ -1,0 +1,108 @@
+
+<img class="bannerIndex" src="/images/banner.jpg" alt="">
+
+<h1 class="tituloCentral">El Gestor de Libros</h1>
+{{!-- 
+<div class="contenidoCentral container">
+    <div class="rowCentral row">
+        <div class="col-sm-4">
+            <a href="/libros">
+
+            Biblioteca
+            </a>
+            </div>
+        <div class="col-sm-4">
+            <a href="/pendientes">
+            Pendientes
+            </a>
+            </div>
+        <div class="col-sm-4">
+            <a href="/notas">
+            Notas
+            
+            </a>
+            </div>
+            
+            
+    </div>
+</div>
+
+<div>
+    <div class="registroLibro">Registrar Libro</div>
+    <form class="formRegistro" action="" method="post" >
+        
+        <div class="row">
+             <div class="col-sm-6 campo">
+            <label  for="">Titulo</label>
+            <br>
+            <input required placeholder="Ej. Rayuela" type="text" name="tituloRegistro" id="">
+        </div>
+        
+        <div class="col-sm-6 campo">
+            <label  for="">Autor</label>
+            <br>
+            <input required placeholder="Ej. Julio Cortazar" type="text" name="autorRegistro" id="">
+        </div>
+        </div>
+        
+       <input type="submit"  required>
+    </form>
+</div> --}}
+
+<div class="itemIndex container-fluid">
+    <a href="/libros">
+        Ver todos los libros
+    </a>
+</div>
+
+<div class="itemIndex container-fluid">
+    <a href="#registroLibro">
+        Registrar un libro
+    </a>
+</div>
+
+<div class="itemIndex container-fluid">
+    <a href="/titulos">
+        Buscar por título
+    </a>
+</div>
+
+<div class="itemIndex container-fluid">
+    <a href="/autores">
+        Buscar por autor
+    </a>
+</div>
+
+<div class="container-fluid cajaRegistroLibro">
+    <div id = "registroLibro" class="registroLibro">Registrar Libro</div>
+    <form class="formRegistro" action="" method="post" >
+        
+        <div class="contenedorCampos row">
+             <div class="col-sm-12 campo">
+            <label  class="tituloCampo"for="">Titulo</label>
+            <br>
+            <input required placeholder="Ej. Rayuela" type="text" name="tituloRegistro" id="">
+        </div>
+        
+        <div class="col-sm-12 campo">
+            <label  for="">Autor</label>
+            <br>
+            <input required placeholder="Ej. Julio Cortazar" type="text" name="autorRegistro" id="">
+        </div>
+        <div class="campo">
+            <label class= "col-sm-12 tituloCampo" for="">Estado</label>
+            <br>
+            <select name="estado" id="">
+                <option value="Disponible">Disponible</option>
+                <option value="Prestado">Prestado</option>
+                <option value="Revision">Revision</option>
+            </select>
+        </div>
+        </div>
+        
+       <input class = "botonSubmit" type="submit"  required>
+    </form>
+</div> 
+<div class="botonVolver">
+    <a href="/">Volver arriba</a>
+</div>

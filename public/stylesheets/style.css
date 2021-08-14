@@ -1,0 +1,266 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.barraNavegacion{
+  background-color: black;
+  color: white;
+  position:sticky;
+  top: 0;
+}
+
+.barraNavegacion a{
+  color: white;
+}
+
+
+.barraNavegacion button{
+  color:black;
+  background-color: white;
+  
+}
+
+
+
+.bannerIndex{
+  width: 100vw;
+  opacity: 0.7;
+  max-height: 500px;
+}
+
+.contenidoCentral{
+  
+  text-align: center;
+  margin: 15% auto;
+  font-size: 25px;
+
+}
+
+.tituloCentral{
+  text-align: center;
+  font-weight: bolder;
+  margin: 5% auto;
+  font-size:500%;
+  /* position: absolute;
+  top: 20%;
+  left: 15%; */
+}
+
+.registroLibro{
+  margin: 5% auto;
+  
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.cajaRegistroLibro{
+  background-color: rgba(244, 208, 63, 0.7);
+  max-height: 500px;
+  max-width: 400px;
+  padding: 5px;
+}
+.contenedorCampos{
+  text-align: center;
+}
+.formRegistro{
+  
+  padding: 5%;
+  margin: 10px;
+}
+
+.campo{
+  margin: 5% auto;
+
+  
+}
+
+.tituloCampo{
+ 
+  margin-bottom: 1%;
+  
+}
+input{
+  margin: 0 auto;
+  width: 70%;
+}
+
+div > select{
+  width: 70%;
+  text-align: center;
+}
+
+
+
+.campo label{
+  font-size: 20px;
+  
+}
+
+.botonSubmit{
+  width: 30%;
+  margin:10% 35%;
+  
+  
+}
+
+input::placeholder{
+  font-style: italic;
+  color:grey;
+  opacity: 0.5;
+  text-align: center;
+}
+
+div > a {
+  text-decoration: none;
+  color: black;
+  
+  
+}
+
+div > a:hover, .botonVolver:hover, .barraNavegacion a:hover{
+ 
+  color: rgba(244, 208, 63, 1);
+  
+}
+
+
+
+.botonVolver{
+  border: 1px solid black;
+  width: 20%;
+  margin: 5% auto;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 150px;
+ 
+  background-color: black;
+  
+
+}
+
+.botonVolver > a{
+  color: white;
+}
+.rowLibros{
+  width: 100%;
+  
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.itemLibro{
+  /* border: 1px solid black; */
+  margin: 2% auto;
+  text-align: center;
+}
+
+.itemLibro > h3{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+  
+}
+
+.estado{
+  font-size: 10px;
+}
+
+.falsaImagen{
+  width: 225px;
+  height: 250px;
+  margin: 1% auto;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+
+.itemIndex{
+  background-color: black;
+  text-align: center;
+  margin: 5% auto;
+  height: 100px;
+  width: 80%;
+  padding-top: 30px;
+}
+
+.itemIndex a{
+  color: white;
+  font-size:30px;
+ 
+}
+
+
+.tituloBuscarLibro{
+  text-align: center;
+  margin: 5% auto;
+  margin-top: 10%;
+
+}
+
+.campoBuscarLibro{
+  margin: 2% auto;
+  width: 50%;
+  max-width: 300px;
+  border: 2px solid black;
+}
+
+.submitBuscarLibro{
+  max-width: 100px;
+}
+
+.formBuscarLibro{
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer{
+  background-image: url(/images/banner.jpg);
+  height: 80px;
+  
+  width: 100vw;
+  margin-top: 20%;
+  position:absolute; 
+  
+ 
+  
+}
+
+footer > p{
+  font-size: 20px;
+ background-color: black;
+ color: white;
+ position: relative; 
+ bottom: 0;
+}
+
+.contenedorBuscador{
+  height: 45vh;
+}
+
+.contenedorResultado{
+  text-align: center;
+}
+
+.resultadoBusqueda{
+  text-align: center;
+  margin: 5% auto;
+}
+
+.contenedorAutores{
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+
